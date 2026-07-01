@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:marketplace_order_id",
+ "creation": "2024-04-10 04:14:58.334098",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "marketplace_order_id",
+  "marketplace"
+ ],
+ "fields": [
+  {
+   "fieldname": "marketplace_order_id",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Marketplace Order ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "marketplace",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "Marketplace",
+   "options": "Marketplace"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-10 04:16:12.959495",
+ "modified_by": "Administrator",
+ "module": "Marketplace",
+ "name": "Marketplace Order ID",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
