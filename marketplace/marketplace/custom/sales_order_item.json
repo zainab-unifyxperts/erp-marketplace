@@ -1133,7 +1133,7 @@
    "description": null,
    "docstatus": 0,
    "dt": "Sales Order Item",
-   "fetch_from": "item_code.custom_ecommerce_sku",
+   "fetch_from": null,
    "fetch_if_empty": 0,
    "fieldname": "custom_sku",
    "fieldtype": "Data",
