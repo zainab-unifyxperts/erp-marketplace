@@ -1,8 +1,8 @@
 app_name = "marketplace"
 app_title = "Marketplace"
-app_publisher = "Raymond Fung"
+app_publisher = "Zainab Shaikh"
 app_description = "Stores information of various marketplace"
-app_email = "manan@unifyexperts.com"
+app_email = "zainab@unifyexperts.com"
 app_license = "mit"
 # required_apps = []
 
@@ -132,13 +132,13 @@ app_license = "mit"
 
 # Scheduled Tasks
 # ---------------
-scheduler_events = {
-    "cron": {
-        "*/10 * * * *": [
-            "shopify_integration.shopify_selling.orders.shopify_order_sync_job"
-        ]
-    },
-}
+# scheduler_events = {
+#     "cron": {
+#         "*/10 * * * *": [
+#             "shopify_integration.shopify_selling.sync.shopify_order_sync_job"
+#         ]
+#     },
+# }
 # scheduler_events = {
 # 	"all": [
 # 		"marketplace.tasks.all"
